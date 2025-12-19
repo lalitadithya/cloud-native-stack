@@ -1,0 +1,29 @@
+# Mac 
+.DS_Store
+
+# Test binaries
+*.test
+tmp
+awsme_test_outputs
+test_outputs
+
+# Coverage
+*.out
+
+# Binaries
+bin
+dist
+eidos
+
+# Keys 
+cosign.*
+*.pem
+
+# ko 
+/.digest
+
+# IDE 
+.vscode
+
+#direnv
+.envrc
